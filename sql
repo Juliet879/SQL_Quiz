@@ -1,10 +1,10 @@
 1. SELECT * FROM Students;
 2. SELECT name, marks FROM Students;
 3. SELECT DISTINCT town FROM Students;
-4. SELECT name FROM Students WHERE town=Ruiru;
+4. SELECT name FROM Students WHERE town='Ruiru';
 5. SELECT * FROM Students WHERE marks>85;
 6. SELECT name,marks FROM Students ORDER BY marks ASC;
-7. SELECT * FROM Students WHERE marks>80 AND town=Lodwar;
-8. SELECT name FROM Students WHERE marks>70 NOT town=Nairobi;
+7. SELECT * FROM Students WHERE marks>80 AND town='Lodwar';
+8. SELECT name FROM Students WHERE marks>70 NOT town='Nairobi';
 9. SELECT * FROM Students ORDER BY name ASC;
-10.SELECT name FROM Students WHERE town=Nairobi OR marks>80;
+10.SELECT name FROM Students WHERE town='Nairobi' OR marks>80;
