@@ -6,5 +6,5 @@
 6. SELECT name FROM Students ORDER BY marks ASC;
 7. SELECT * FROM Students WHERE marks>80 AND town=Lodwar;
 8. SELECT name FROM Students WHERE marks>70 NOT town=Nairobi;
-9. SELECT name FROM Students ORDER BY ASC;
+9. SELECT name FROM Students ORDER BY name ASC;
 10.SELECT name FROM Students WHERE town=Nairobi OR marks>80;
